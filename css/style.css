@@ -1,8 +1,13 @@
-body, html{
+body{
 	background-color: black;
 	margin: 0px;
 	padding: 0px;
-	transition: ease-in-out 2s;
+	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, 
+	"apple color emoji", "segoe ui emoji", "Segoe UI Symbol", "noto color emoji";
+}
+.black{
+	background-color: black;
+}
 }
 h1{
 	font-size: 25px;
@@ -68,7 +73,8 @@ a{	margin-lef: 7px;
 
 .white-bg{
 	background-color: white;
-	padding: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 P.five{
 	font-size: 45px;
@@ -79,14 +85,7 @@ p.six{
 	text-align: center;
 }
 
-
-
-	
-
-
 .submit-btn{
-		transition: ease-in-out 0.5s;
-
 text-align:center ;
 padding-left:40px ;
 padding-right: 40px;
@@ -97,6 +96,7 @@ padding-right: 40px;
 	border-radius: 5px;
 	cursor: pointer;
 	margin-left: 30px;
+	margin-top: 30px;
 }
 
 .submit-btn:hover{
@@ -104,13 +104,13 @@ padding-right: 40px;
 	background-color:#ccedcc ;
 		transition: ease-in-out 0.5px;
 
-
 }
 
 
 ul.one{
 	list-style: none;
 	display: flex;
+	background-color: black;
 }
 ul.two{
     list-style: none;
@@ -133,6 +133,178 @@ ul.three{
 
 	padding: 50px;
 	width:  220px
+}
+ul.four{
+    list-style: none;
+    display: flex;
+}
+p.seven{
+	font-size:18px;
+}
+select{
+	padding: 10px;
+	border: none;
+	background-color: #cecece;
+}
+p.eight{
+	font-size:36px;
+	font-weight: 700;
+	margin-left: 400px;
+}
+p.nine{
+	text-align: center;
+	color: black;
+}
+p.ten{
+   color: black;
+   border: 1px solid;
+   border-radius: 20px;
+   padding-left: 30px;
+   height: 250px;
+   width: 400px;
+   align-content: center;
+   padding-top: 20px;
+
+}
+p.eleven{
+	margin-left: 620px;
+	font-size:20px ;
+	font-weight: 500;
+}
+ul.five{
+	list-style: none;
+	display:inline-flex; flex;
+}
+.box{
+	background-color: white;
+
+}
+.wrapper{
+	padding: 20px;
+}
+.cover{
+	list-style: none;
+	display: flex;
+}
+span{
+	margin-left: 50px;
+	font-size: 12px;
+}
+b{
+	margin-left: 10px;
+}
+.pot{
+	background-color: white;
+}
+h3{
+	color: black;
+}
+img.three{
+   padding-left: 200px;
+   margin-bottom: 30px;
+}
+img.four{
+   padding-left: 200px;
+   margin-bottom: 20px;
+}
+img.five{
+	padding-left: 200px;
+	margin-bottom: 20px;
+}
+
+img.six{
+   padding-left: 200px;
+   margin-bottom: 30px;
+}
+img.seven{
+   padding-left: 200px;
+   margin-bottom: 30px;
+  animation: 42s linear 21s infinite normal none running marquee2-7469cdc9;
+  justify-content: space-around;
+  scroll-behavior: smooth;
+
+}
+marquee.one{
+  scroll-behavior:alternate ;
+  direction:left ;
+
+}
+marquee.two{
+	scroll-behavior:alternate ;
+	direction:right ;
+}
+p.twelve{
+    border: 0.1px solid;
+    border-radius: 20px;
+    height:500px;
+    align-content: center;
+    border-color: grey;
+    margin-left: 100px;   
+}
+p.thirteen{
+     border: 0.1px solid;
+    border-radius: 20px;
+    height:500px;
+    align-content: center;
+    border-color: grey;
+    margin-left: 30px; 
+}
+.case{
+	list-style: none;
+	display: inline-flex;
+	padding: ;
+}
+.boot{
+	width: 330px;
+}
+b.two{
+	margin-left: 50px;
+	text-align: center;
+	align-content: center;
+
+}
+span.two{
+   font-size: 15px;
+   color: grey;
+}
+.close{
+	width: 70px;
+	margin-left: 260px;
+	margin-top: 160px;
+}
+.tap{
+	width: 70px;
+	margin-left: 260px;
+	margin-top: 100px;
+}
+.frunk{
+    width: 70px;
+	margin-left: 260px;
+	margin-top: 120px;	
+}
+h5{
+	font-size: 40px;
+	argin-left: 400px;
+	text-align: center;
+}
+.button{
+	 text-align:center ;
+padding-left:40px ;
+padding-right: 40px;
+	background-color: #3f9d3f;
+	height: 45px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 600px;
+	align-content: center;
+}
+
+
+
+
+
 
 	
 
